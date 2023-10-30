@@ -1,7 +1,17 @@
 contact: Ryan Holmes
 email: ryan.holmes@bom.gov.au
 created: 2023-07-04
+name: 1deg_era5_iaf
+experiment_uuid: 258946b4-13f5-4967-926d-d99b87843193
+model:
+  - ACCESS-OM2
+nominal_resolution:
+  - 1 degree
+version: 1
 description: |-
+  1 degree ACCESS-OM2 global model configuration with ERA5 interannual
+  forcing (1960-2019)
+long_description: |-
   1 degree ACCESS-OM2 global model configuration under interannual forcing.
   The configuration is based on that described in Kiss et al. (2020),
   https://doi.org/10.5194/gmd-13-401-2020, but with many improvements.
@@ -22,7 +32,12 @@ notes: |-
   which is supported by the Australian Government."
   (c) let us know of any publications which use these models or data so we can add them to our list:
   https://scholar.google.com/citations?hl=en&user=inVqu_4AAAAJ
+reference: null
+license: null
 url: https://github.com/rmholmes/1deg_era5_iaf/tree/ryan_testing
+parent_experiment: null
+related_experiments:
+  - d0f4158d-996a-430e-8ad7-015435b0069f
 keywords:
   - one
   - cosima

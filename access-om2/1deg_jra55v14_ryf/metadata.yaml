@@ -1,7 +1,17 @@
 contact: Ryan Holmes
 email: ryan.holmes@bom.gov.au
 created: 2023-03-01
+name: 1deg_jra55v14_ryf
+experiment_uuid: d2333abc-cc58-479e-a517-c24f5b2d61dd
+model:
+  - ACCESS-OM2
+nominal_resolution:
+  - 1 degree
+version: 1
 description: |-
+  1 degree ACCESS-OM2 global model configuration with JRA55-do v1.4.0 RYF9091
+  repeat year forcing (May 1990 to Apr 1991)
+long_description: |-
   1 degree ACCESS-OM2 global model configuration under the RYF9091 Repeat
   Year Forcing strategy outlined by Stewart et al. (2020), 
   https://doi.org/10.1016/j.ocemod.2019.101557.
@@ -24,7 +34,12 @@ notes: |-
   which is supported by the Australian Government."
   (c) let us know of any publications which use these models or data so we can add them to our list:
   https://scholar.google.com/citations?hl=en&user=inVqu_4AAAAJ
+reference: null
+license: null
 url: https://github.com/rmholmes/1deg_jra55_ryf/tree/era5comp
+parent_experiment: null
+related_experiments:
+  - 65a6afe9-fb03-4949-9a30-74787ceba807
 keywords:
   - one
   - cosima
