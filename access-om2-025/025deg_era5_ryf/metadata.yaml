@@ -18,8 +18,9 @@ long_description: |-
   The configuration is based on that described in Kiss et al. (2020),
   https://doi.org/10.5194/gmd-13-401-2020, but with many improvements.
   Initial conditions are WOA13v2 potential temperature and practical salinity.
-  Run with ERA-5 RYF9091 (1 May 1990 - 30 April 1991) repeated forcing
-  with all solid runoff converted to liquid runoff with no heat transfer.
+  Run with ERA5 atmospheric forcing fields and JRA-55 v1.4 riverine
+  and land-ice runoff. 
+  Forcing is taken from the RYF9091 period (1 May 1990 - 30 April 1991).
   Spin up starts from a nominal year of 1 Jan 1900.
 notes: |-
   Source code: https://github.com/COSIMA/access-om2

@@ -10,7 +10,7 @@ nominal_resolution:
 version: 1
 description: |-
   1 degree ACCESS-OM2 global model configuration with JRA55-do v1.4.0
-  interannual forcing (1958-2019)
+  interannual forcing (1960-2019)
 long_description: |-
   1 degree ACCESS-OM2 global model configuration under interannual forcing.
   The configuration is based on that described in Kiss et al. (2020),
@@ -18,7 +18,11 @@ long_description: |-
   Initial conditions are WOA13v2 potential temperature and practical salinity.
   Run with JRA55-do v1.4.0 interannually-varying forcing with all solid runoff
   converted to liquid runoff with no heat transfer.
-  Spin up starts 1 Jan 1958 and runs to 1 Jan 2019.
+  Spin up starts 1 Jan 1960 and runs to 1 Jan 2019.
+  This run differs from the OMIP-2 1-degree runs (e.g. 
+  1deg_jra55_iaf_omip2_cycle*) in that it was done in physics only mode and 
+  begins in 1960 rather than 1958 to facilitate an apples-to-apples comparison
+  with 1deg_era5_iaf.
 notes: |-
   Source code: https://github.com/COSIMA/access-om2
   License: Attribution-NonCommercial-NoDerivatives 4.0 International (http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)

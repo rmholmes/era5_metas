@@ -21,6 +21,9 @@ long_description: |-
   Run with JRA55-do v1.4.0 RYF9091 (1 May 1990 - 30 April 1991) repeated forcing
   with all solid runoff converted to liquid runoff with no heat transfer.
   Spin up starts from a nominal year of 1 Jan 1900.
+  This run differs from the standard access-om2 control run 025deg_jra55_ryf9091_gadi
+  in that it uses JRA55-do v1.4.0 forcing instead of v1.3. This run was performed to
+  facilitate comparison with the ERA5 run 025deg_era5_ryf.
 notes: |-
   Source code: https://github.com/COSIMA/access-om2
   License: Attribution-NonCommercial-NoDerivatives 4.0 International (http://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
